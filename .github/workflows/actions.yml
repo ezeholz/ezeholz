@@ -18,7 +18,7 @@ jobs:
           # Options
           user: ezeholz
           template: "@bigger"
-          setup_community_templates: ezeholz/metrics@latest:bigger+trust
+          setup_community_templates: ezeholz/metrics@templates:bigger+trust
           config_padding: 0, 23 + 11%
           filename: metrics.*
           committer_gist: "4bc3474185f69e7d4fe8e610ce6a9cc6"

@@ -10,14 +10,15 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: ezeholz/metrics@master
+      - uses: lowlighter/metrics@master
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
           user: ezeholz
-          template: classic
+          template: "@bigger"
+          setup_community_templates: ezeholz/metrics@latest:bigger+trust
           config_padding: 0, 23 + 11%
           filename: metrics.*
           committer_gist: "4bc3474185f69e7d4fe8e610ce6a9cc6"
@@ -27,10 +28,10 @@ jobs:
               justify-content: center
             }
             section:nth-child(2) section:nth-of-type(2) div:nth-of-type(3) path:first-child, section:nth-child(3) section:nth-of-type(2) div:nth-of-type(1) path:first-child {
-              fill: red
+              // fill: red
             }
             section:nth-child(2) section:nth-of-type(2) div:nth-of-type(4) path:first-child, section:nth-child(3) section:nth-of-type(2) div:nth-of-type(2) path:first-child {
-              fill: yellow
+              // fill: yellow
             }
           base: header, activity, community, repositories
           config_timezone: America/Buenos_Aires

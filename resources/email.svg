@@ -6,7 +6,11 @@
 	<style>
 		tspan { white-space:pre }
 	</style>
-	<foreignObject x="0" y="0" width="60px" height="60px">
-		<use id="Layer" href="#img1" x="0" y="0" />
+	<foreignObject x="0" y="0" width="100%" height="60px">
+		<div align="center">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="60" height="60">
+				<use id="Layer" href="#img1" x="0" y="0" />
+			</svg>
+		</div>
 	</foreignObject>
 </svg>

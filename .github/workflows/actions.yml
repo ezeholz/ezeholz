@@ -5,7 +5,7 @@ on:
   # schedule: [{cron: "0 * * * *"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
-  push: {branches: []}
+  push: {branches: ["responsive"]}
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -32,6 +32,21 @@ jobs:
             }
             section:nth-child(2) section:nth-of-type(2) div:nth-of-type(4) path:first-child, section:nth-child(3) section:nth-of-type(2) div:nth-of-type(2) path:first-child {
               // fill: yellow
+            }
+            .row section:nth-child(2) :nth-child(n) {
+                flex-direction: row-reverse;
+            }
+            .language {
+                max-width: 800px
+            }
+            .language .bar {
+                width: 100%
+            }
+            .field.language.details small :nth-child(n) {
+                padding: 0 40px
+            }
+            .language .row section:nth-child(2) :nth-child(n) {
+                flex-direction: row;
             }
           base: header, activity, community, repositories
           config_timezone: America/Buenos_Aires

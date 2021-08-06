@@ -3,13 +3,14 @@
         <style/>
     </defs>
 	<style>
-		tspan { white-space:pre }
+		div {
+			display: flex;
+			justify-content: center;
+		}
 	</style>
-	<foreignObject x="0" y="0" width="60px" height="60px">
-		<div>
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="60" height="60">
-				<img width="60" height="60" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAAXNSR0IB2cksfwAAAPZQTFRFAAAA////////////////////hoaGXl5eAAAAV1dXbm5uV1dXICAgPz8/S0tLHx8f////QEBAv7+/9fX19PT039/fUFBQ7+/vf39/n5+fz8/Pb29vj4+PEBAQX19fr6+vYGBgDw8PT09PHx8fgICALy8vMDAwwMDAHh4e8PDwZmZmWFhYYWFhDQ0NWFhY////////////wMDAr6+v////W1tboKCgHR0dampqVVVV4ODgHBwc////ampqPDw8UVFRTk5OnJycVlZWDw8P////////NTU1////dHR0YWFhRkZGQUFBOTk5NTU1dXV1ZmZmAAAAAAAADJGBjwAAAFJ0Uk5TAAwpMygFIuL/2Rza///M/v////////////////////////////////7/1sPO/cQIAyGBZiDH//ykkP/7CTdTurcp2P4GE/ENsJvy7PfzsqAwQHN88RYAAAHJSURBVHiczZZ3U4MwGMbjftSgCZoCAqXLOmvde4+61/f/MrYntpSSQtLz9Pkrd+R3z7uSQMjQ8IiWRscIGZ+ApianyDSooSWKGTJLmaboLAFnJteQyThasKGTsdGG51RDnleDRc5izHbChSK8YDQZ12PMNNRhedgDFUx9RCKwatSM/XfYs/Vhy8/rwzaENiwz7sCBq2zMXCeEeyUKImpsB0n8Nyzi3zwfQdS4iNZJ6lIgQrjUnbPgKJtRY2aV4McMUEosmAe4oU8n4yBuLqk2UAhX0VKbQJABNsvgImZsVYDuSZP12XLhV7qMTQoj1jL5kJiLcKLGKHqxHX0nzLGiGQe9k5Iyno5suLLAbKEP++9vkl+G1V/YNuzpvBiu9DLIpBZcXdJUtQkPIAJqa4oOmvOfwct0RY9doctkFVTnH45zijUytF7T61Nto07I5lbSD/E2cj/x5bCTtGOXSLWH/R94vxmfkuoHaNfRwsGYEnzYfjaaKuBI0fi4Awuc1LOSp2fnF+DR88NxeX6Whb+69pNbc3N9m8beNUDzSWcoT9G4T4EfOv2NK4fHFPgJ0lG38JwCv6AiFV5T4Ld+4/yeApOPT6k+4nu/AC+mzjBtbSn9AAAAAElFTkSuQmCC"/>
-			</svg>
+	<foreignObject x="0" y="0" width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<img width="60" height="60" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAAXNSR0IB2cksfwAAAPZQTFRFAAAA////////////////////hoaGXl5eAAAAV1dXbm5uV1dXICAgPz8/S0tLHx8f////QEBAv7+/9fX19PT039/fUFBQ7+/vf39/n5+fz8/Pb29vj4+PEBAQX19fr6+vYGBgDw8PT09PHx8fgICALy8vMDAwwMDAHh4e8PDwZmZmWFhYYWFhDQ0NWFhY////////////wMDAr6+v////W1tboKCgHR0dampqVVVV4ODgHBwc////ampqPDw8UVFRTk5OnJycVlZWDw8P////////NTU1////dHR0YWFhRkZGQUFBOTk5NTU1dXV1ZmZmAAAAAAAADJGBjwAAAFJ0Uk5TAAwpMygFIuL/2Rza///M/v////////////////////////////////7/1sPO/cQIAyGBZiDH//ykkP/7CTdTurcp2P4GE/ENsJvy7PfzsqAwQHN88RYAAAHJSURBVHiczZZ3U4MwGMbjftSgCZoCAqXLOmvde4+61/f/MrYntpSSQtLz9Pkrd+R3z7uSQMjQ8IiWRscIGZ+ApianyDSooSWKGTJLmaboLAFnJteQyThasKGTsdGG51RDnleDRc5izHbChSK8YDQZ12PMNNRhedgDFUx9RCKwatSM/XfYs/Vhy8/rwzaENiwz7sCBq2zMXCeEeyUKImpsB0n8Nyzi3zwfQdS4iNZJ6lIgQrjUnbPgKJtRY2aV4McMUEosmAe4oU8n4yBuLqk2UAhX0VKbQJABNsvgImZsVYDuSZP12XLhV7qMTQoj1jL5kJiLcKLGKHqxHX0nzLGiGQe9k5Iyno5suLLAbKEP++9vkl+G1V/YNuzpvBiu9DLIpBZcXdJUtQkPIAJqa4oOmvOfwct0RY9doctkFVTnH45zijUytF7T61Nto07I5lbSD/E2cj/x5bCTtGOXSLWH/R94vxmfkuoHaNfRwsGYEnzYfjaaKuBI0fi4Awuc1LOSp2fnF+DR88NxeX6Whb+69pNbc3N9m8beNUDzSWcoT9G4T4EfOv2NK4fHFPgJ0lG38JwCv6AiFV5T4Ld+4/yeApOPT6k+4nu/AC+mzjBtbSn9AAAAAElFTkSuQmCC"/>
 		</div>
 	</foreignObject>
 </svg>

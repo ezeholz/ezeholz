@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="60">
-	<title>linkedin-svg</title>
+	<defs>
+        <style/>
+    </defs>
 	<style>
 		tspan { white-space:pre }
 		.shp0 { fill: #ffffff } 

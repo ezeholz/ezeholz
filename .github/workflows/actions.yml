@@ -27,12 +27,6 @@ jobs:
             h1 {
               justify-content: center
             }
-            section:nth-child(2) section:nth-of-type(2) div:nth-of-type(3) path:first-child, section:nth-child(3) section:nth-of-type(2) div:nth-of-type(1) path:first-child {
-              // fill: red
-            }
-            section:nth-child(2) section:nth-of-type(2) div:nth-of-type(4) path:first-child, section:nth-child(3) section:nth-of-type(2) div:nth-of-type(2) path:first-child {
-              // fill: yellow
-            }
             .row section:nth-child(2) :nth-child(n) {
                 flex-direction: row-reverse;
             }
@@ -43,10 +37,13 @@ jobs:
                 width: 100%
             }
             .field.language.details small :nth-child(n) {
-                padding: 0 40px
+                padding: 0 0 0 40px
             }
             .language .row section:nth-child(2) :nth-child(n) {
                 flex-direction: row;
+            }
+            .language .row {
+              width: 100%;
             }
           base: header, activity, community, repositories
           config_timezone: America/Buenos_Aires
@@ -59,4 +56,3 @@ jobs:
           plugin_languages_aliases: "JavaScript:JS"
           plugin_languages_threshold: 2%
           plugin_lines: yes
-          plugin_lines_skipped: ${{ secrets.SKIPPED }}
